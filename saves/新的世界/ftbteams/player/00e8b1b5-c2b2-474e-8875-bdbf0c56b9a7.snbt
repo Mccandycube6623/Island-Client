@@ -1,0 +1,19 @@
+{
+	id: "00e8b1b5-c2b2-474e-8875-bdbf0c56b9a7"
+	type: "player"
+	player_name: "MHYC133"
+	ranks: {
+		00e8b1b5-c2b2-474e-8875-bdbf0c56b9a7: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "MHYC133"
+		"ftbteams:color": "#CEFF59"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}
