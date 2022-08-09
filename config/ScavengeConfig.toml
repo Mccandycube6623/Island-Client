@@ -7,6 +7,9 @@
 
 [plugins]
 
+	[plugins.score]
+		load = true
+
 	[plugins.world]
 		load = true
 
@@ -14,9 +17,6 @@
 		load = true
 
 	[plugins.tile]
-		load = true
-
-	[plugins.score]
 		load = true
 
 	[plugins.player]

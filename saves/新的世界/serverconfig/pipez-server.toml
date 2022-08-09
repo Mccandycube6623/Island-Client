@@ -1,15 +1,24 @@
 
 [item_pipe]
 
+	[item_pipe.amount]
+		#The amount of items transferred
+		#Range: > 1
+		improved = 16
+		#The amount of items transferred
+		#Range: > 1
+		advanced = 32
+		#The amount of items transferred
+		#Range: > 1
+		ultimate = 64
+		#The amount of items transferred
+		#Range: > 1
+		no_upgrade = 4
+		#The amount of items transferred
+		#Range: > 1
+		basic = 8
+
 	[item_pipe.speed]
-		#The speed at which items are transferred
-		#A value of 1 means every tick
-		#Range: > 1
-		no_upgrade = 20
-		#The speed at which items are transferred
-		#A value of 1 means every tick
-		#Range: > 1
-		basic = 15
 		#The speed at which items are transferred
 		#A value of 1 means every tick
 		#Range: > 1
@@ -22,33 +31,18 @@
 		#A value of 1 means every tick
 		#Range: > 1
 		ultimate = 1
-
-	[item_pipe.amount]
-		#The amount of items transferred
+		#The speed at which items are transferred
+		#A value of 1 means every tick
 		#Range: > 1
-		no_upgrade = 4
-		#The amount of items transferred
+		no_upgrade = 20
+		#The speed at which items are transferred
+		#A value of 1 means every tick
 		#Range: > 1
-		basic = 8
-		#The amount of items transferred
-		#Range: > 1
-		improved = 16
-		#The amount of items transferred
-		#Range: > 1
-		advanced = 32
-		#The amount of items transferred
-		#Range: > 1
-		ultimate = 64
+		basic = 15
 
 [fluid_pipe]
 
 	[fluid_pipe.amount]
-		#The amount of mB transferred each tick
-		#Range: > 1
-		no_upgrade = 50
-		#The amount of mB transferred each tick
-		#Range: > 1
-		basic = 100
 		#The amount of mB transferred each tick
 		#Range: > 1
 		improved = 500
@@ -58,16 +52,16 @@
 		#The amount of mB transferred each tick
 		#Range: > 1
 		ultimate = 10000
+		#The amount of mB transferred each tick
+		#Range: > 1
+		no_upgrade = 50
+		#The amount of mB transferred each tick
+		#Range: > 1
+		basic = 100
 
 [energy_pipe]
 
 	[energy_pipe.amount]
-		#The amount of FE transferred each tick
-		#Range: > 1
-		no_upgrade = 256
-		#The amount of FE transferred each tick
-		#Range: > 1
-		basic = 1024
 		#The amount of FE transferred each tick
 		#Range: > 1
 		improved = 8192
@@ -77,18 +71,16 @@
 		#The amount of FE transferred each tick
 		#Range: > 1
 		ultimate = 131072
+		#The amount of FE transferred each tick
+		#Range: > 1
+		no_upgrade = 256
+		#The amount of FE transferred each tick
+		#Range: > 1
+		basic = 1024
 
 [gas_pipe]
 
 	[gas_pipe.amount]
-		#The amount of mB transferred each tick
-		#Only available if Mekanism is installed
-		#Range: > 1
-		no_upgrade = 200
-		#The amount of mB transferred each tick
-		#Only available if Mekanism is installed
-		#Range: > 1
-		basic = 400
 		#The amount of mB transferred each tick
 		#Only available if Mekanism is installed
 		#Range: > 1
@@ -101,4 +93,12 @@
 		#Only available if Mekanism is installed
 		#Range: > 1
 		ultimate = 40000
+		#The amount of mB transferred each tick
+		#Only available if Mekanism is installed
+		#Range: > 1
+		no_upgrade = 200
+		#The amount of mB transferred each tick
+		#Only available if Mekanism is installed
+		#Range: > 1
+		basic = 400
 

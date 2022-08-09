@@ -1,12 +1,12 @@
 
 #Logging Settings
 [logging]
-	#Enables more logging during recipe registration and syncing.
-	recipeRegistration = false
-	#Enables more logging for fields handling nearby block updates.
-	fieldBlockChanges = false
 	#Enables more logging for the recipe matching process.
 	recipeMatching = false
+	#Enables more logging for fields handling nearby block updates.
+	fieldBlockChanges = false
+	#Enables more logging during recipe registration and syncing.
+	recipeRegistration = false
 
 #Field Settings
 [field]

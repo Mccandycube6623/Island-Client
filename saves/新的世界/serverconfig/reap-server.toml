@@ -1,9 +1,9 @@
 
 [crop_harvesting]
-	#The blocks that should get harvested by right-clicking
-	whitelist = ["minecraft:nether_wart", "minecraft:potatoes", "minecraft:carrots", "minecraft:wheat", "minecraft:beetroots", "minecraft:cocoa"]
 	#If the held tool should be considered when right-click harvesting
 	consider_tool = true
+	#The blocks that should get harvested by right-clicking
+	whitelist = ["minecraft:nether_wart", "minecraft:potatoes", "minecraft:carrots", "minecraft:wheat", "minecraft:beetroots", "minecraft:cocoa"]
 
 [tree_harvesting]
 	#Examples: 'minecraft:oak_log', '#minecraft:logs'
@@ -16,12 +16,12 @@
 	enabled = true
 
 	[tree_harvesting.dynamic_breaking_speed]
-		#If bigger trees should be harder to break
-		enabled = true
-		#The maximum amount of time a tree should take to harvest
-		#Range: 1.0 ~ 100.0
-		min_speed = 10.0
 		#The amount of breaking time that gets added per harvested log
 		#Range: 0.0 ~ 100.0
 		per_log = 0.1
+		#The maximum amount of time a tree should take to harvest
+		#Range: 1.0 ~ 100.0
+		min_speed = 10.0
+		#If bigger trees should be harder to break
+		enabled = true
 

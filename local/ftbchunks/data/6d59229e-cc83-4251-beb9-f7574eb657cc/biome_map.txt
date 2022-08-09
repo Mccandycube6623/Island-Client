@@ -3,3 +3,4 @@
 #3DC minecraft:plains
 #5FF minecraft:river
 #452 minecraft:wooded_hills
+#306 minecraft:wooded_mountains
