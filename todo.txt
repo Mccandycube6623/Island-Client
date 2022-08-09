@@ -3,3 +3,30 @@
 删除框架配方(id: '???:???')
 
 测试一下在线的编辑器
+'industrialforegoing:machine_frame_pity'
+'industrialforegoing:machine_frame_simple'
+'industrialforegoing:machine_frame_advanced'
+'industrialforegoing:machine_frame_supreme'
+
+'create:andesite_casing'
+'create:copper_casing'
+'create:brass_casing'
+'create:shadow_steel_casing'
+'create:refined_radiance_casing'
+'createaddition:overcharged_casing'
+
+'rftoolsbase:machine_frame'
+
+'boss_tools:engine_frame'
+
+'mekanism:teleporter_frame'
+
+'cyclic:mason_plate'
+
+'create:sail_frame'
+
+'mysticalagriculture:machine_frame'
+
+'thermal:energy_cell_frame'
+'thermal:machine_frame'
+'thermal:fluid_cell_frame'
