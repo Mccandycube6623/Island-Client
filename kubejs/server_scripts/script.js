@@ -31,6 +31,26 @@ onEvent('recipes', event => {
 	event.remove({output: 'tconstruct:grout'})
 	event.shapeless('2x tconstruct:grout', ['minecraft:coarse_dirt', 'minecraft:clay_ball'])
 
+	// removes
+	event.remove({output: 'industrialforegoing:machine_frame_pity'})
+	event.remove({output: 'industrialforegoing:machine_frame_simple'})
+	event.remove({output: 'industrialforegoing:machine_frame_advanced'})
+	event.remove({output: 'industrialforegoing:machine_frame_supreme'})
+	event.remove({output: 'create:andesite_casing'})
+	event.remove({output: 'create:copper_casing'})
+	event.remove({output: 'create:brass_casing'})
+	event.remove({output: 'create:shadow_steel_casing'})
+	event.remove({output: 'create:refined_radiance_casing'})
+	event.remove({output: 'createaddition:overcharged_casing'})
+	event.remove({output: 'rftoolsbase:machine_frame'})
+	event.remove({output: 'boss_tools:engine_frame'})
+	event.remove({output: 'mekanism:teleporter_frame'})
+	event.remove({output: 'cyclic:mason_plate'})
+	event.remove({output: 'create:sail_frame'})
+	event.remove({output: 'mysticalagriculture:machine_frame'})
+	event.remove({output: 'thermal:energy_cell_frame'})
+	event.remove({output: 'thermal:machine_frame'})
+	event.remove({output: 'thermal:fluid_cell_frame'})
 })
 
 onEvent('item.tags', event => {
