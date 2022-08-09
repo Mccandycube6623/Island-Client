@@ -1,0 +1,24 @@
+
+[general]
+	#Prints a Example Script and examples to every property on game startup
+	printExamples = false
+	#Dumps scripts on Resource reload into the ResourcePacks folder
+	dumpScripts = false
+
+[plugins]
+
+	[plugins.world]
+		load = true
+
+	[plugins.utils]
+		load = true
+
+	[plugins.tile]
+		load = true
+
+	[plugins.score]
+		load = true
+
+	[plugins.player]
+		load = true
+
