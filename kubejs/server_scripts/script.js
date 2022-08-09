@@ -12,7 +12,6 @@ onEvent('recipes', event => {
 	// remove all recipes to andesite alloy
 	event.remove({output: 'create:andesite_alloy'})
 	// add a shapeless recipe to andesite alloy
-	//event.shapeless('4x create:andesite_alloy', ['minecraft:andesite', 'tconstruct:seared_brick'])
 	event.shaped( '2x create:andesite_alloy', [
 		'AB',
 		'BA'
@@ -27,6 +26,10 @@ onEvent('recipes', event => {
 		A: 'minecraft:andesite',
 		B: 'tconstruct:seared_brick'
 	})
+
+	// tconstruct:grout recipe change
+	event.remove({output: 'tconstruct:grout'})
+	event.shapeless('2x tconstruct:grout', ['minecraft:coarse_dirt', 'minecraft:clay_ball'])
 
 })
 
